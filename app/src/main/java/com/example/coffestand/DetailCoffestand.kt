@@ -1,5 +1,6 @@
 package com.example.coffestand
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -43,8 +44,11 @@ class DetailCoffestand : AppCompatActivity() {
         btnMaps.setOnClickListener {
             showMaps(Uri.parse(urlKoordinat))
         }
+
+        supportActionBar?.title = "Detail"
     }
 
+    @SuppressLint("QueryPermissionsNeeded")
     private fun showMaps(geoLocation : Uri){
         val intent = Intent(Intent.ACTION_VIEW).apply {
             data = geoLocation

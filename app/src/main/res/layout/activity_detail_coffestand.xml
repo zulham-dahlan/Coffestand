@@ -31,10 +31,11 @@
                 android:textStyle="bold"
                 android:gravity="center"
                 android:text="@string/example_name"
+                android:padding="8dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="16dp"
-                android:layout_gravity="bottom"/>
-
+                android:layout_gravity="bottom"
+                />
         </FrameLayout>
 
         <LinearLayout

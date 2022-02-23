@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Coffestand</string>
+    <string name="app_name">Coffeestand</string>
     <string name="example_name">Kopi Ruang Hati</string>
     <string name="example_alamat">Jl. Sultan Fatah No.1, Bogorame, Bintoro, Kec. Demak, Kabupaten Demak, Jawa Tengah 59515</string>
     <string name="example_rating">Rating : %s</string>
